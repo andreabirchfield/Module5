@@ -1,0 +1,18 @@
+#custlist { visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll;}
+#custhist{ visibility: hidden; position: absolute;  height: 600px; width: 600px; overflow: scroll;}
+#deletecustomer{ visibility: hidden; position: absolute;  height: 600px; width: 600px; overflow: scroll;}
+#aboutsect{ visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll;word-wrap: break-word;}
+#findme{ visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll;word-wrap: break-word;}
+#testb{position: absolute; left: 200px;top: 800px;}
+#test{position: absolute; right:  200px;top: 800px;}
+#addcusto{top: 700px; right: 200px;}
+#updatestore{ visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll;word-wrap: break-word;}
+#addcustomer{ visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll;word-wrap: break-word;}
+.tablecenter tr:nth-child(odd){background-color: #dfe7f2;color: #000000;}
+.requirements{font-style: italic; color: red; overflow: scroll; word-wrap: break-word;}
+h1{text-align: center; font-family: cursive;}
+
+/*#custhist {
+    visibility: hidden; position: absolute; height: 75%; width: 600px; text-align: center; font-size: 16pt; background-color: lightgray; top: 50px; left: 50px; color: darkred; overflow: scroll; margin: 150px 0 0 0; top: 0px; left: 10px; right: 10px;
+    }*/
+
