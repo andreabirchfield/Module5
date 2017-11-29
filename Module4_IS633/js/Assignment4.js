@@ -441,8 +441,8 @@ function deletecusts(deletion)
    }
    
    
- //  var Latitude = undefined;
-   //var Longitude = undefined;
+   var Latitude = undefined;
+   var Longitude = undefined;
  
 // Get geo coordinates
  
