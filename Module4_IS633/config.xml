@@ -31,8 +31,8 @@
 
     <!--<splash src = "splash.png" />-->
     
-    <splash src="splash.png" width="320" height="480"/>
-   
+    <!--<splash src="splash.png" width="320" height="480"/>-->
+   <splash src="res/screen/ios/Default@2x~universal~splash.png" />
 
 <preference name="SplashScreenDelay" value="5000" />
 
