@@ -37,7 +37,7 @@
    
   
 
-<!--<preference name="SplashScreenDelay" value="5000" />-->
+<preference name="SplashScreenDelay" value="5000" />
 
 <icon src = "icon.png"/>
 
