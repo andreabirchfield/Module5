@@ -566,6 +566,14 @@ function showPosition1(position) {
     document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
 }
    
+   
+   
+document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+  navigator.splashscreen.show();
+}
+
+
   function goBack() {
     
       document.getElementById("custlist").style.visibility = "visible";
