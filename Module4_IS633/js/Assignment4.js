@@ -490,19 +490,19 @@ function getMap(latitude, longitude) {
  
 // Success callback for watching your changing position
  
-var onMapWatchSuccess = function (position) {
- 
-    var updatedLatitude = position.coords.latitude;
-    var updatedLongitude = position.coords.longitude;
- 
-    if (updatedLatitude != Latitude && updatedLongitude != Longitude) {
- 
-        Latitude = updatedLatitude;
-        Longitude = updatedLongitude;
- 
-        getMap(updatedLatitude, updatedLongitude);
-    }
-}
+//var onMapWatchSuccess = function (position) {
+// 
+//    var updatedLatitude = position.coords.latitude;
+//    var updatedLongitude = position.coords.longitude;
+// 
+//    if (updatedLatitude != Latitude && updatedLongitude != Longitude) {
+// 
+//        Latitude = updatedLatitude;
+//        Longitude = updatedLongitude;
+// 
+//        getMap(updatedLatitude, updatedLongitude);
+//    }
+//}
  
 // Error callback
  
@@ -540,10 +540,14 @@ function watchMapPosition() {
     var longitude = position.coords.longitude;
     document.getElementById("latitude").innerHTML = latitude;
     document.getElementById("longitude").innerHTML = longitude;
+    
+    showPosition1(position);
    }
    
    function handle_geolocation_query(position)
 {
+    console.log("hiiiii");
+    console.log(position);
     var image_url = "http://maps.google.com/maps/api/staticmap?sensor=false&center=" + position.coords.latitude + "," +
                     position.coords.longitude + "&zoom=14&size=300x400&markers=color:blue|label:S|" +
                     position.coords.latitude + ',' + position.coords.longitude;
@@ -552,6 +556,14 @@ function watchMapPosition() {
     jQuery(document.body).append(
         jQuery(document.createElement("img")).attr("src", image_url).attr('id','map')
     );
+}
+
+function showPosition1(position) {
+    var latlon = position.coords.latitude + "," + position.coords.longitude;
+
+    var img_url = "https://maps.googleapis.com/maps/api/staticmap?center="+latlon+"&zoom=14&size=400x300&sensor=false&key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU";
+
+    document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
 }
    
   function goBack() {

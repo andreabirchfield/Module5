@@ -5,8 +5,21 @@
     <title>Assignment 4</title>
     <link rel="stylesheet" type="text/css" href="styles/Assignment4.css"/>
     <script src="js/Assignment4.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8KsLCxOAmClUr4NQXaMrsKCrdWBCoEeA"></script>
- 
+ <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8KsLCxOAmClUr4NQXaMrsKCrdWBCoEeA&callback=getMap" type="text/javascript"></script>
+ <!--<script>-->
+ <!--       jQuery(window).ready(function(){-->
+ <!--           jQuery("#btnInit").click(initiate_geolocation);-->
+ <!--       });-->
+ <!---->
+ <!--       function initiate_geolocation() {-->
+ <!--           navigator.geolocation.getCurrentPosition(handle_geolocation_query);-->
+ <!--       }-->
+ <!---->
+ <!--       function handle_geolocation_query(position){-->
+ <!--           alert('Lat: ' + position.coords.latitude + ' ' +-->
+ <!--                 'Lon: ' + position.coords.longitude);-->
+ <!--       }-->
+ <!--   </script>-->
 </head>
 
 <body>
@@ -133,10 +146,13 @@
     <label id= "longitude"> Longitude Result</label>
     <br>
     <button onclick= "Location();"> Find Current Location</button>
-    
-    
+    <div id="mapholder"> </div>
 </section>
 
+
+
+    
+    
 <section id= "aboutsect">
    This app is designed to assist in pulling information about a customer.
    This app was designed by Andrea L Birchfield!
