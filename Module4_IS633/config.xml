@@ -41,7 +41,7 @@
 <splash src="splash.png" platform="android" qualifier="ldpi" /> 
 <splash src="blue-paint-splash-181586.jpg" platform="winphone" />
 
- <icon src="Icon-60@2x.png" platform="ios" width="57" height="57" density="mdpi" />
+<icon src="Icon-60@2x.png" platform="ios" width="57" height="57" density="mdpi" />
 
 <icon src="icon.png" platform="android" qualifier="ldpi" />
 <icon src="icon.png" platform="winphone" />
