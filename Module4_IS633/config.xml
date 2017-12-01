@@ -60,9 +60,7 @@
  
  
  
- <platform name="ios">
-  <icon src="icon.png" width="180" height="180" />
-</platform>
+  <icon src="icon.png" platform="ios" width="57" height="57" density="mdpi" />
  
 
      <platform name="windows">
