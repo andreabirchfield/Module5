@@ -40,7 +40,12 @@
 <preference name="SplashScreenDelay" value="10000" />
 
 <!--<icon src = "icon.png"/>-->
-<icon src="uab.png" platform="ios" width="57" height="57" density="mdpi" />
+
+ 
+ <platform name = "ios">
+    <icon src="uab.png" platform="ios" width="57" height="57" density="mdpi" />
+    
+ </platform>
  <platform name="android">
         <!--
             ldpi    : 36x36 px
@@ -50,28 +55,14 @@
             xxhdpi  : 144x144 px
             xxxhdpi : 192x192 px
         -->
-        <icon src="res/android/icon.png" density="ldpi" />
-        <icon src="res/android/icon.png" density="mdpi" />
-        <icon src="res/android/icon.png" density="hdpi" />
-        <icon src="res/android/icon.png" density="xhdpi" />
-        <icon src="res/android/icon.png" density="xxhdpi" />
-        <icon src="res/android/icon.png" density="xxxhdpi" />
+        <icon src="icon.png" density="ldpi" />
+        
     </platform>
- 
- 
- 
   
- 
 
      <platform name="windows">
         <icon src="icon.png" target="StoreLogo" />
-        <icon src="icon.png" target="Square30x30Logo" />
-        <icon src="icon.png" target="Square44x44Logo" />
-        <icon src="icon.png" target="Square70x70Logo" />
-        <icon src="icon.png" target="Square71x71Logo" />
-        <icon src="icon.png" target="Square150x150Logo" />
-        <icon src="icon.png" target="Square310x310Logo" />
-        <icon src="icon.png" target="Wide310x150Logo" />
+        
     </platform>
      
 </widget>
