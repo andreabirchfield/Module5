@@ -37,10 +37,10 @@
    
   
 
-<preference name="SplashScreenDelay" value="5000" />
+<preference name="SplashScreenDelay" value="10000" />
 
 <!--<icon src = "icon.png"/>-->
-
+<icon src="uab.png" platform="ios" width="57" height="57" density="mdpi" />
  <platform name="android">
         <!--
             ldpi    : 36x36 px
@@ -60,7 +60,7 @@
  
  
  
-  <icon src="icon.png" platform="ios" width="57" height="57" density="mdpi" />
+  
  
 
      <platform name="windows">
