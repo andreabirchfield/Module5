@@ -43,7 +43,7 @@
 
  
  <platform name = "ios">
-    <icon src="uab.png" platform="ios" width="57" height="57" density="mdpi" />
+    <icon src="icon.png" width="57" height="57" density="mdpi" />
     
  </platform>
  <platform name="android">
