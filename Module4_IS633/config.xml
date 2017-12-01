@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <widget xmlns   = "http://www.w3.org/ns/widgets"
  xmlns:gap   = "http://phonegap.com/ns/1.0"
  id          = "edu.uab.business.studentapp"
@@ -30,34 +31,17 @@
 
 
     
-    <!--<preference name="SplashScreen" value="splash"></preference>-->
-    <splash src = "splash.png" />
-    <!--<splash src="splash.png" width="320" height="480"/>-->
-   <!--<splash src="res/screen/ios/Default@2x~universal~splash.png" />-->
-   
-  
 
 <preference name="SplashScreenDelay" value="3000" />
 
-<icon src = "icon.png"/>
+<splash src="splash.png" platform="ios" width="320" height="480" />
+<splash src="splash.png" platform="ios" width="640" height="960" />
+<splash src="splash.png" platform="android" qualifier="ldpi" /> 
+<splash src="blue-paint-splash-181586.jpg" platform="winphone" />
 
- 
- <platform name="ios">
-    <icon src="icon-60.png"  width="60" height="60" />
-<icon src="icon-60@2x.png"  width="120" height="120" />
-    
- </platform>
- 
- <platform name="android">
-        
-        <icon src="icon.png" density="ldpi" />
-        
-    </platform>
-  
 
-     <platform name="windows">
-        <icon src="icon.png" target="StoreLogo" />
-        
-    </platform>
+<icon src="icon-60@3x.png" platform="ios" width="180" height="180" />
+<icon src="icon.png" platform="android" qualifier="ldpi" />
+<icon src="icon.png" platform="winphone" />
      
 </widget>
