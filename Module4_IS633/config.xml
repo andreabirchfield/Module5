@@ -39,14 +39,15 @@
 
 <preference name="SplashScreenDelay" value="3000" />
 
-<!--<icon src = "icon.png"/>-->
+<icon src = "icon.png"/>
 
  
- <platform name = "ios">
+ <platform name="ios">
     <icon src="icon-60.png"  width="60" height="60" />
 <icon src="icon-60@2x.png"  width="120" height="120" />
     
  </platform>
+ 
  <platform name="android">
         
         <icon src="icon.png" density="ldpi" />
