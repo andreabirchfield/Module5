@@ -488,23 +488,6 @@ function getMap(latitude, longitude) {
     map.setCenter(marker.getPosition());
 }
  
-// Success callback for watching your changing position
- 
-//var onMapWatchSuccess = function (position) {
-// 
-//    var updatedLatitude = position.coords.latitude;
-//    var updatedLongitude = position.coords.longitude;
-// 
-//    if (updatedLatitude != Latitude && updatedLongitude != Longitude) {
-// 
-//        Latitude = updatedLatitude;
-//        Longitude = updatedLongitude;
-// 
-//        getMap(updatedLatitude, updatedLongitude);
-//    }
-//}
- 
-// Error callback
  
 function onMapError(error) {
     console.log('code: ' + error.code + '\n' +
