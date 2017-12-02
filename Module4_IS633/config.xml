@@ -20,7 +20,7 @@
     Andrea L Birchfield
 </author>
 
-<preference name="phonegap-version" value="cli-7.0.1" />
+<preference name="phonegap-version" value="cli-6.5.0" />
 <plugin name="cordova-plugin-whitelist" source="npm" />
 <access origin="*" />
 
