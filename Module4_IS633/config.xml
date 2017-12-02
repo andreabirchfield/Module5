@@ -34,10 +34,10 @@
 
 <preference name="SplashScreenDelay" value="3000" />
 
-<splash src="splash.png" platform="ios" width="1242" height="2208" />
-<splash src="splash" platform="ios" width="2208" height="1242" />
-<splash src="splash.png" platform="ios" width="320" height="480" />
-<splash src="splash.png" platform="ios" width="640" height="960" />
+<splash src="splash/ios/splash-large.png" platform="ios" width="1242" height="2208" />
+<splash src="splash/ios/splash-medium.png" platform="ios" width="2208" height="1242" />
+<splash src="splash/ios/splash-mlarge.png" platform="ios" width="320" height="480" />
+<splash src="splash/ios/splash-small.png" platform="ios" width="640" height="960" />
 <splash src="splash.png" platform="android" qualifier="ldpi" /> 
 <splash src="blue-paint-splash-181586.jpg" platform="winphone" />
 
